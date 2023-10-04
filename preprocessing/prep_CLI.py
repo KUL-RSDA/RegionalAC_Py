@@ -35,8 +35,7 @@ def run_cli_ts(VAR_lat, VAR_lon,latini, lonini, st_lat,st_lon):
     lonpt  =crds.M2AC_col_to_lon(VAR_lon)
 
 
-    #name_dir= '/staging/leuven/stg_00024/OUTPUT/shannondr/CLI_files/'+loc
-    name_dir = '/staging/leuven/stg_00024/OUTPUT/shannondr/CLI_files/' + str(VAR_lat) + '_' + str(VAR_lon) + '_2011-2016'
+    name_dir = '/my_dir/CLI_files/' + str(VAR_lat) + '_' + str(VAR_lon) + '_2011-2016'
     name = str(round(latpt,2)) + '_' + str(round(lonpt,3)) + '_'
     name_fil = str(VAR_lat) + '_' + str(VAR_lon)+ '_'
     os.mkdir(name_dir)
