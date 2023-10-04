@@ -1,13 +1,10 @@
 # RegionalAC_Py
-This repository stores the basis to run AquaCrop (version 7.0 and higher) spatially with a Python wrapper.
-
-## Functioning
-The domain is gridded in rows and columns. For each pixel, there is a corresponding latitute and longitude that the user has to define. A useful example on how to set teh Georeference can be found under preprocessing/COORD.py, based on de Roos et al. (2021).
+This repository stores the basis to run AquaCrop (version 7.0 and higher) spatially with a Python wrapper. Examples of preprocessing and postprocessing scripts are provided. Note that these scripts are only there to provide examples to the users, that can serve as basis for their regional simulations.
 
 ## Regional AquaCrop scripts
 The regional AquaCrop is based on de Roos et al. (2021) and originally developed for AquaCropV6.1. The code has been updated to run for AquaCropV7.0 and higher. To spatially run AquaCrop with the python wrapper, two scripts are required:
 1. AC_exec.py
-   This script executes and contains the parallelization (using the multiprocessing Python package) to distribute the simulations spatially through a defined number of processes and distributes the pixels (combinations of rows and columns) across the different processes. This scripts prepares the AquaCrop environement and calls the function run_ac_pro_yrs (from AC_PRM.py) to prepare the project file in order to run AquaCrop.
+   This script executes and contains the parallelization (using the multiprocessing Python package). This scripts prepares the AquaCrop environement and calls the function run_ac_pro_yrs (from AC_PRM.py) to prepare the project file in order to run AquaCrop.
 2. AC_PRM.py
    This script prepares the project file (.PRM) to run AquaCrop. Note that only the soil files and the climate files are dynamic in space. The crop, irrigation, and management files can be used but will be applied for the whole domain. However, dynamic (in time and space) input can readily be implemented.
 
