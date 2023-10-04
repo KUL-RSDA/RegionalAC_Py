@@ -35,8 +35,8 @@ def wrapper(coords):  # wraps all functions into one list of functions
     col, row = coords
 
     #filenames and directories
-    input_dir =  # your input dir
-    dir_out = # your output dir
+    input_dir =  '/my_dir/test_linux/INPUT/'
+    dir_out = '/my_dir/text_linux/OUTPUT/'
     dir_soil = input_dir + 'soil/'
     dir_cli = input_dir + 'climate/'
     dir_crop = input_dir + 'crop/'
@@ -66,7 +66,7 @@ def wrapper(coords):  # wraps all functions into one list of functions
             file.write(fname + '.PRM\n')
 
         # Link Aquacrop model to current directory
-        AC_loc =  # path to AC executable
+        AC_loc =  '/my_executable_dir/aquacrop'
         os.symlink(AC_loc, pa + 'aquacrop')
 
         # Prepare PRM file
@@ -86,6 +86,3 @@ def wrapper(coords):  # wraps all functions into one list of functions
         os.remove(pa + 'OUTP/ListProjectsLoaded.OUT')
 
 main()
-#create file to notify when complete
-file = open('/end.txt', 'w') #put some dir
-file.write('ex_AC is done')
