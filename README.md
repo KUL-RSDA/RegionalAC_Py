@@ -8,6 +8,8 @@ The regional AquaCrop is based on de Roos et al. (2021) and originally developed
 2. **AC_PRM.py**
    This script prepares the project file (.PRM) to run AquaCrop. Note that only the soil files and the climate files are spatially distributed for now. The crop, irrigation, and management files can be used but will be applied uniformly for the whole domain. However, dynamic (in time and space) input can readily be implemented.
 
+The [AquaCrop executable](https://github.com/KUL-RSDA/AquaCrop) is run for each pixel. Note that the code was tested for AquaCropV7.1.
+
 The RegionalAC can be tested by adapting the paths in AC_exec.py to the testace (test_linux or test_windows). Reference output, generated on Linux with AquaCropV7.1 is also provided under OUTPUT_REF.
 
 ## Preprocessing
