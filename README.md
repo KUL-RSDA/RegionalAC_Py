@@ -2,7 +2,7 @@
 This repository provides a basis to run AquaCrop (version 7.0 and higher) in a spatially distributed way, using a Python wrapper. Examples of preprocessing and postprocessing scripts are available. Note that these scripts are only there to serve as examples to the users, and need to be adapted for their own regional simulations.
 
 ## Regional AquaCrop scripts
-The regional AquaCrop is based on de Roos et al. (2021) and originally developed for AquaCropV6.1. The code has been updated to run for AquaCropV7.0 and higher. To spatially run AquaCrop with the python wrapper, two scripts are required:
+The regional AquaCrop is based on de Roos et al. (2021) and originally developed for AquaCropV6.1. The code has been updated to run for AquaCropV7.0 and higher. To spatially run AquaCrop using the Python wrapper, two scripts are required:
 1. **AC_exec.py**
    This script executes and contains the parallelization (using the multiprocessing Python package). This scripts prepares the AquaCrop environment and calls the function run_ac_pro_yrs (from AC_PRM.py) to prepare the project file in order to run AquaCrop.
 2. **AC_PRM.py**
