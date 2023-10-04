@@ -21,3 +21,4 @@ In this folder, some example scripts are given to help the users preprocess thei
 An example script is given to store the AquaCrop output (generated in different directories, one for each pixel) into a netcdf files with dimensions (time, lat, lon). 
 
 ## Citation
+

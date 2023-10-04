@@ -1,0 +1,38 @@
+AquaCrop 7.1 (August 2023) - Output created on (date) : 19-08-2023   at (time) : 13:48:27
+Biomass and Yield at Multiple cuttings
+
+   Run:   1
+    Nr   Day  Month Year   DAP Interval  Biomass    Sum(B)   Dry-Yield  Sum(Y) Fresh-Yield  Sum(Y)
+                                 days     ton/ha    ton/ha    ton/ha    ton/ha    ton/ha    ton/ha
+     0     1     1  2011                             0.000               0.000               0.000
+  9999     1     1  2012                             2.424               2.061
+
+   Run:   2
+    Nr   Day  Month Year   DAP Interval  Biomass    Sum(B)   Dry-Yield  Sum(Y) Fresh-Yield  Sum(Y)
+                                 days     ton/ha    ton/ha    ton/ha    ton/ha    ton/ha    ton/ha
+     0     1     1  2012                             0.000               0.000               0.000
+  9999     1     1  2013                             1.870               1.589
+
+   Run:   3
+    Nr   Day  Month Year   DAP Interval  Biomass    Sum(B)   Dry-Yield  Sum(Y) Fresh-Yield  Sum(Y)
+                                 days     ton/ha    ton/ha    ton/ha    ton/ha    ton/ha    ton/ha
+     0     1     1  2013                             0.000               0.000               0.000
+  9999     1     1  2014                             2.980               2.533
+
+   Run:   4
+    Nr   Day  Month Year   DAP Interval  Biomass    Sum(B)   Dry-Yield  Sum(Y) Fresh-Yield  Sum(Y)
+                                 days     ton/ha    ton/ha    ton/ha    ton/ha    ton/ha    ton/ha
+     0     1     1  2014                             0.000               0.000               0.000
+  9999     1     1  2015                             3.843               3.266
+
+   Run:   5
+    Nr   Day  Month Year   DAP Interval  Biomass    Sum(B)   Dry-Yield  Sum(Y) Fresh-Yield  Sum(Y)
+                                 days     ton/ha    ton/ha    ton/ha    ton/ha    ton/ha    ton/ha
+     0     1     1  2015                             0.000               0.000               0.000
+  9999     1     1  2016                             2.082               1.770
+
+   Run:   6
+    Nr   Day  Month Year   DAP Interval  Biomass    Sum(B)   Dry-Yield  Sum(Y) Fresh-Yield  Sum(Y)
+                                 days     ton/ha    ton/ha    ton/ha    ton/ha    ton/ha    ton/ha
+     0     1     1  2016                             0.000               0.000               0.000
+  9999     1     1  2017                             2.649               2.252
