@@ -9,6 +9,9 @@ from AC_PRM import run_ac_pro_yrs
 Executable for AquaCrop, the regional version. With multiprocessing it can be run on the max available cores on a single node.
 @ Shannon de Roos 2020: original author, for AquaCropV6.1
 @ Louise Busschaert 2023: simplified and adapted for AquaCropV7 and higher
+Note 4 Nov 2024: for windows users, avoid using the multiprocessing/Pool package and replace the symbolic link to the AquaCrop
+executable to an actual copy of the aquacrop.exe. LB will later add if statements to run with the apropriate configuration 
+(Linux/Windows).
 ----------------------------------------------------------------------------------------------------------------------------'''
 
 

@@ -121,7 +121,7 @@ def run_ac_pro_yrs(row, col, dir_out, DirSoil, DirCli, DirCrop, DirSupfiles, sta
 
         CROP= ['-- 3. CROP (CRO) file\n',
               '   ' + name_crop[0] + '.CRO\n',
-              '   ' + DirCrop + '\n']
+              DirCrop]
         fid.writelines(CROP)
 
         if name_irr[0] == nan:
@@ -240,7 +240,7 @@ def run_ac_pro_yrs(row, col, dir_out, DirSoil, DirCli, DirCrop, DirSupfiles, sta
 
                     CROP = ['-- 3. CROP (CRO) file\n',
                             '   ' + name_crop[n] + '.CRO\n',
-                            '   ' + DirCrop + '\n']
+                            DirCrop]
                     fid.writelines(CROP)
 
                     if name_irr[n] == nan:
